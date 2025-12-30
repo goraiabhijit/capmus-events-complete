@@ -1,5 +1,6 @@
 # CampusEvents - Campus Event Management System
-![alt text](/assets/logo.jpeg)
+
+<img src="/assets/logo.jpeg" alt="Alt text" width="300" height="200">
 
 A comprehensive event management platform designed for campus communities to create, discover, and register for events.
 
