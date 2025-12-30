@@ -35,24 +35,28 @@ CampusEvents is a full-stack web application that allows users to browse, discov
 
 ```
 capmus-events-complete/
-├── client/                 # Frontend application
-│   ├── index.html         # Main landing page
-│   ├── dashboard.html     # Dashboard page
-│   ├── config.js          # Client configuration
-│   ├── script.js          # Main client-side script
-│   ├── dashboard.js       # Dashboard functionality
-│   └── .gitignore         # Git ignore rules for client
+├── client/                     # Frontend application
+│   ├── assets/                 # Static assets (images, icons, logos, etc.)
+│   │   ├── logo.jpeg           # Main logo used in README and UI
+│   │   ├── logo-title.jpeg     # Title/wordmark variant of the logo
+│   │   └── ...other assets     # Additional images or static files
+│   ├── index.html              # Main landing page
+│   ├── dashboard.html          # Dashboard page
+│   ├── config.js               # Client configuration (API base URL, etc.)
+│   ├── script.js               # Main client-side script for landing page
+│   ├── dashboard.js            # Dashboard functionality and event logic
+│   └── .gitignore              # Git ignore rules for client
 │
-├── server/                 # Backend application
-│   ├── server.js          # Main server file
-│   ├── package.json       # Node.js dependencies
-│   ├── vercel.json        # Vercel deployment config
-│   ├── models/            # Database models
-│   │   ├── Event.js       # Event model schema
-│   │   └── User.js        # User model schema
-│   └── .env               # Environment variables (not in repo)
+├── server/                     # Backend application
+│   ├── server.js               # Main server file
+│   ├── package.json            # Node.js dependencies and scripts
+│   ├── vercel.json             # Vercel deployment config
+│   ├── models/                 # Database models
+│   │   ├── Event.js            # Event model schema
+│   │   └── User.js             # User model schema
+│   └── .env                    # Environment variables (not in repo)
 │
-└── README.md              # This file
+└── README.md                   # Project documentation
 ```
 
 ## Key Features
