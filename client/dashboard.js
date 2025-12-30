@@ -333,6 +333,14 @@ async function registerForEvent(eventId) {
     return;
   }
 
+  // Show confirmation dialog
+  const confirmed = confirm(
+    "Are you sure you want to register for this event?"
+  );
+  if (!confirmed) {
+    return;
+  }
+
   const button = document.querySelector(`button[data-event-id="${eventId}"]`);
   if (button) {
     button.disabled = true;
