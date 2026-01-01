@@ -2,6 +2,9 @@
 
 <img src="/client/assets/logo.jpeg" alt="Alt text" width="300" height="200">
 
+## preview
+<img src="./client/assets/preview.png" height="500"/>
+
 A comprehensive event management platform designed for campus communities to create, discover, and register for events.
 
 ## Project Description
